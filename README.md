@@ -38,9 +38,9 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. *(Y
 3. Create a `.env` file inside the `server` folder with the following variables:
    ```env
    PORT=5000
-   MONGO_URI=mongodb+srv://arogyamind:EB4alcNPQpC0T9Z9@arogyamindcluster.v0myefw.mongodb.net/arogyamind?retryWrites=true&w=majority
-   JWT_SECRET=supersecret_arogya_mind_key_12345
-   GEMINI_API_KEY=AIzaSyCoG-jTghmLigH2ZyuLOQMobYD55JX2oWI
+   MONGO_URI=<YOUR_MONGO_URI>
+   JWT_SECRET=<YOUR_JWT_SECRET>
+   GEMINI_API_KEY=<YOUR_GEMINI_API_KEY>
    ```
 4. Start the server:
    ```bash
